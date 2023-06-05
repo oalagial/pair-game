@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./app/store";
 import Welcome from "./components/Welcome";
-import React from "react";
 import PairGame from "./components/PairGame";
 import Leaderboard from "./components/Leaderboard";
 import Header from "./components/Header";

@@ -108,7 +108,7 @@ function PairGame(): JSX.Element {
     return () => clearTimeout(timeout);
   }, []);
 
-  const addScoreToLeaderboard = async (name, level) => {
+  const addScoreToLeaderboard = async (name: string, level: number) => {
     try {
       const response = await fetch("http://localhost:3001/leaderboard", {
         method: "POST",

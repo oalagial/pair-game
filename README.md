@@ -1,11 +1,9 @@
 # Pair Game
 
-## Table of Contents
-- [Run json-server (Leaderboard)](#leaderboard)
-- [Usage of frontend app](#usage)
-- [Technologies Used](#technologies-used)
-- [Game Rules](#game-rules)
-
+## Installation
+1. Clone the repository: `git clone https://github.com/oalagial/pair-game.git`
+2. Navigate to the project directory: `cd pair-game`
+3. Install dependencies: `npm install`
 
 ## Run json-server (Leaderboard)
 Run in other terminal `json-server --watch leaderboard.json --port 3001`
